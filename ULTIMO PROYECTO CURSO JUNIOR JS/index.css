@@ -1,0 +1,26 @@
+.contenedor-llaves{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p b {
+    color: rgb(61, 124, 27);
+}
+.flex-item{
+    flex-grow: 1;
+    margin: 10px;
+    padding: 0 10px;
+    border: 2px solid #000;
+    max-width: 300px;
+}
+
+.flex-item:hover{
+    border: 2px solid rgba(81, 219, 6, 0.652);
+    box-shadow: 0px 0px 20px 4px  rgba(81, 219, 6, 0.652);
+}
+
+.llave-img{
+    width: 300px;
+    object-fit: scale-down;
+}
